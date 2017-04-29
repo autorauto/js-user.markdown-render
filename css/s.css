@@ -21,6 +21,66 @@ h6 { font-size: 1.25em; margin-block-start: 2.33em; margin-block-end: 2.33em; }
 listing { margin-block-start: 1em; margin-block-end: 1em; }
 p { margin-block-start: 1em; margin-block-end: 1em; }
 
+/* from Firefox default CSS @ https://hg.mozilla.org/mozilla-central/file/tip/layout/style/res/html.css @@ http://archive.is/apSZc*/
+/* inlines */
+
+q:before {
+  content: open-quote;
+}
+
+q:after {
+  content: close-quote;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+i, cite, em, var, dfn {
+  font-style: italic;
+}
+
+tt, code, kbd, samp {
+  font-family: -moz-fixed;
+}
+
+u, ins {
+  text-decoration: underline;
+}
+
+s, strike, del {
+  text-decoration: line-through;
+}
+
+big {
+  font-size: larger;
+}
+
+small {
+  font-size: smaller;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+  line-height: normal;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+  line-height: normal;
+}
+
+nobr {
+  white-space: nowrap;
+}
+
+mark {
+  background: yellow;
+  color: black;
+}
+
 /*
 // // see jsfiddle @ http://jsfiddle.net/5HQ7p
 // h1:after { content:' '; display:block; border:1px dashed #505050; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px; }
