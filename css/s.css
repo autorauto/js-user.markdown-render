@@ -44,7 +44,7 @@ blockquote {
 
 table {
   border-collapse: collapse;
-  /* width: 100%; */
+  font-size: 100%;
 }
 table + table {
   margin-top: 1em;
@@ -54,9 +54,12 @@ thead {
   background: rgba(238,238,238,0.8);
   text-align: left;
 }
-th, td {
+th, td, caption {
   border: /* 1px */ 0.05em solid /* #EEE */ gainsboro;
   padding: /* 5px 10px */ 0.35em 0.7em;
+}
+caption {
+
 }
 hr {
   background: /* #EEE */ gainsboro;
