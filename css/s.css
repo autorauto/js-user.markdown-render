@@ -19,6 +19,7 @@ h5 { font-size: 1.25em; margin-block-start: 1.67em; margin-block-end: 1.67em; }
 h6 { font-size: 1.25em; margin-block-start: 2.33em; margin-block-end: 2.33em; }
 
 listing { margin-block-start: 1em; margin-block-end: 1em; }
+p { margin-block-start: 1em; margin-block-end: 1em; }
 
 /*
 // // see jsfiddle @ http://jsfiddle.net/5HQ7p
