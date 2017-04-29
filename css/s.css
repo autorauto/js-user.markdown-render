@@ -3,86 +3,8 @@
 // ref: [base css ~ sss.css] https://github.com/Thiht/sss/blob/master/sss.css
 // see http://www.cssfontstack.com for font stack info
 */
-body { font-family: Lora, "Noto Serif", "DejaVu Serif", Palatino, serif; font-size: 1.2em; line-height: 1.5; }
-body { max-width: 90%; padding-left: 5%;}
-
-h1, h2, h3, h4, h5, h6 { font-family: "Fira Sans", "Open Sans", "DejaVu Sans", Calibri, Arial, sans-serif; }
-h1, h2, h3, h4, h5, h6 { font-family: "Fira Sans", "Open Sans", "DejaVu Sans", Calibri, Arial, sans-serif; }
-h1, h2 { font-weight: 400; }
-h3, h4 { font-weight: 300; }
-h5, h6 { font-weight: 200; }
-h1 { font-size: 2.5em; margin-block-start: 0.67em; margin-block-end: 0.67em; }
-h2 { font-size: 2em; margin-block-start: 0.83em; margin-block-end: 0.83em; }
-h3 { font-size: 1.75em; margin-block-start: 1em; margin-block-end: 1em; }
-h4 { font-size: 1.5em; margin-block-start: 1.33em; margin-block-end: 1.33em; }
-h5 { font-size: 1.25em; margin-block-start: 1.67em; margin-block-end: 1.67em; }
-h6 { font-size: 1.25em; margin-block-start: 2.33em; margin-block-end: 2.33em; }
-
-listing { margin-block-start: 1em; margin-block-end: 1em; }
-p { margin-block-start: 1em; margin-block-end: 1em; }
-
-/* from Firefox default CSS @ https://hg.mozilla.org/mozilla-central/file/tip/layout/style/res/html.css @@ http://archive.is/apSZc*/
-/* inlines */
-
-q:before {
-  content: open-quote;
-}
-
-q:after {
-  content: close-quote;
-}
-
-b, strong {
-  font-weight: bolder;
-}
-
-i, cite, em, var, dfn {
-  font-style: italic;
-}
-
-tt, code, kbd, samp {
-  font-family: -moz-fixed;
-}
-
-u, ins {
-  text-decoration: underline;
-}
-
-s, strike, del {
-  text-decoration: line-through;
-}
-
-big {
-  font-size: larger;
-}
-
-small {
-  font-size: smaller;
-}
-
-sub {
-  vertical-align: sub;
-  font-size: smaller;
-  line-height: normal;
-}
-
-sup {
-  vertical-align: super;
-  font-size: smaller;
-  line-height: normal;
-}
-
-nobr {
-  white-space: nowrap;
-}
-
-mark {
-  background: yellow;
-  color: black;
-}
 
 /* W3C recommended default CSS ~ from https://www.w3.org/TR/CSS21/sample.html @@ http://archive.is/U2UF */
-
 html, address,
 blockquote,
 body, dd, div,
@@ -161,6 +83,86 @@ BDO[DIR="rtl"]  { direction: rtl; unicode-bidi: bidi-override }
   h4, h5, h6    { page-break-after: avoid }
   ul, ol, dl    { page-break-before: avoid }
 }
+
+/* from Firefox default CSS @ https://hg.mozilla.org/mozilla-central/file/tip/layout/style/res/html.css @@ http://archive.is/apSZc*/
+/* inlines */
+
+q:before {
+  content: open-quote;
+}
+
+q:after {
+  content: close-quote;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+i, cite, em, var, dfn {
+  font-style: italic;
+}
+
+tt, code, kbd, samp {
+  font-family: -moz-fixed;
+}
+
+u, ins {
+  text-decoration: underline;
+}
+
+s, strike, del {
+  text-decoration: line-through;
+}
+
+big {
+  font-size: larger;
+}
+
+small {
+  font-size: smaller;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+  line-height: normal;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+  line-height: normal;
+}
+
+nobr {
+  white-space: nowrap;
+}
+
+mark {
+  background: yellow;
+  color: black;
+}
+
+/* #### */
+
+body { font-family: Lora, "Noto Serif", "DejaVu Serif", Palatino, serif; font-size: 1.2em; line-height: 1.5; }
+body { max-width: 90%; padding-left: 5%;}
+
+h1, h2, h3, h4, h5, h6 { font-family: "Fira Sans", "Open Sans", "DejaVu Sans", Calibri, Arial, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: "Fira Sans", "Open Sans", "DejaVu Sans", Calibri, Arial, sans-serif; }
+h1, h2 { font-weight: 400; }
+h3, h4 { font-weight: 300; }
+h5, h6 { font-weight: 200; }
+h1 { font-size: 2.5em; margin-block-start: 0.67em; margin-block-end: 0.67em; }
+h2 { font-size: 2em; margin-block-start: 0.83em; margin-block-end: 0.83em; }
+h3 { font-size: 1.75em; margin-block-start: 1em; margin-block-end: 1em; }
+h4 { font-size: 1.5em; margin-block-start: 1.33em; margin-block-end: 1.33em; }
+h5 { font-size: 1.25em; margin-block-start: 1.67em; margin-block-end: 1.67em; }
+h6 { font-size: 1.25em; margin-block-start: 2.33em; margin-block-end: 2.33em; }
+
+listing { margin-block-start: 1em; margin-block-end: 1em; }
+p { margin-block-start: 1em; margin-block-end: 1em; }
 
 /*
 // // see jsfiddle @ http://jsfiddle.net/5HQ7p
